@@ -1,5 +1,16 @@
 import React from 'react';
 
-const Home: React.FC = () => <h1>Home</h1>;
+import HomeComponent from '../../components/HomeComponent';
+
+const Home: React.FC = () => {
+  console.log('home');
+
+  return (
+    <>
+      <HomeComponent />
+      <h1>Projects</h1>
+    </>
+  );
+};
 
 export default Home;
