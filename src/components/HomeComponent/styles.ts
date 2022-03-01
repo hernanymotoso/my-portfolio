@@ -85,6 +85,21 @@ export const ProfileText = styled.div`
     font-weight: 300;
   }
 `;
+
+// To hover effect in btc
+const socialBtnEffect = keyframes`
+ 0%{
+  left: -110%;
+  top: 90%;
+ }50%{
+  left: 10%;
+  top: -30%;
+
+ }100%{
+  top: -10%;
+  left: -10%;
+ }
+`;
 export const Socials = styled.div`
   display: flex;
   justify-content: center;
@@ -101,23 +116,50 @@ export const Socials = styled.div`
     list-style: none;
     /* max-width: 250px; */
     width: 250px;
+
     a {
+      position: relative;
+      overflow: hidden;
       display: flex;
       justify-content: center;
       align-items: center;
       border: 1px solid rgba(255, 255, 255, 0.08);
       /* transition: border 0.2s; */
       transition: background-color 0.5s;
-      width: 34px;
-      height: 34px;
+      width: 38px;
+      height: 38px;
+      border-radius: 28%;
       text-decoration: none;
       > svg {
         color: #fff;
+        transition: 0.2s linear;
       }
 
       &:hover {
-        background-color: #787cff;
+        /* background-color: #787cff; */
         border: 0;
+
+        > svg {
+          transform: scale(1.2);
+        }
+      }
+
+      // To hover effect in btc
+      &::before {
+        content: '';
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        background: #787cff;
+        transform: rotate(45deg);
+        left: -110%;
+        top: 90%;
+      }
+      // To hover effect in btc
+      &:hover::before {
+        animation: ${socialBtnEffect} 0.7s 1;
+        top: -10%;
+        left: -10%;
       }
     }
   }
