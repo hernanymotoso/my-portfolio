@@ -54,6 +54,8 @@ export const AnimationContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  height: 100%;
 
   animation: ${appearFromBottom} 1s;
 `;
@@ -105,6 +107,7 @@ export const Socials = styled.div`
   justify-content: center;
   align-items: center;
   color: #fff;
+  /* margin-bottom: 100px; */
   /* width: 250px; */
 
   margin-top: 20px;

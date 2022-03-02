@@ -16,6 +16,8 @@ import {
   AnimationContainer,
 } from './styles';
 
+import ScrollDownButton from '../ScrollDownButton';
+
 const HomeComponent: React.FC = () => {
   console.log('teste');
 
@@ -64,6 +66,7 @@ const HomeComponent: React.FC = () => {
               </li>
             </ul>
           </Socials>
+          <ScrollDownButton />
           {/* MouseDown BTN */}
         </AnimationContainer>
       </Content>
