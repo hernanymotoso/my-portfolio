@@ -77,6 +77,11 @@ export const ProfileText = styled.div`
   flex-direction: column;
   color: #fff;
 
+  > div {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
   margin-top: 20px;
   h1 {
     font-size: 45px;

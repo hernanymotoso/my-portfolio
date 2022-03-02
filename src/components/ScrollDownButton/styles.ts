@@ -254,6 +254,7 @@ export const Container = styled.div`
 `;
 
 export const ScrollBtn = styled.div`
+  cursor: pointer;
   width: 26px;
   height: 50px;
   position: relative;
