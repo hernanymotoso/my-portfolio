@@ -9,7 +9,8 @@ const ScrollDownButton: React.FC = () => {
     <Container>
       <ScrollBtn />
 
-      <p>Scroll</p>
+      <p>Coming soon</p>
+      {/* <p>Scroll</p> */}
     </Container>
   );
 };

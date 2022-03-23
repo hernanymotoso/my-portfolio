@@ -8,8 +8,11 @@ const Home: React.FC = () => {
 
   return (
     <>
+      {/* <RemoveScroll> */}
       <HomeComponent />
-      <Portfolio />
+      {/* </RemoveScroll> */}
+
+      {/* <Portfolio /> */}
     </>
   );
 };
