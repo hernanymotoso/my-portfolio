@@ -1,14 +1,14 @@
 import styled, { keyframes } from 'styled-components';
 
 // import HomeBG from 'https://lh4.googleusercontent.com/WGFrP4_87JMY6KkqFF08ziAvvqC-W9ltC6oljwjJTO8xuswCaHPHxI1BZnF8UEcpflyT4YlXoKwYO-8L0NgF=w729-h637-rw';
-// import HomeBG from '../../assets/images/HomeBG.jpg';
+import HomeBG from '../../assets/images/HomeBG.png';
 import ProfileLogo from '../../assets/images/profileLogo.jpg';
 
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  background-image: url('https://lh4.googleusercontent.com/WGFrP4_87JMY6KkqFF08ziAvvqC-W9ltC6oljwjJTO8xuswCaHPHxI1BZnF8UEcpflyT4YlXoKwYO-8L0NgF=w729-h637-rw');
+  background-image: url(${HomeBG});
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
