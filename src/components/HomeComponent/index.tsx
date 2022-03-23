@@ -26,7 +26,7 @@ const HomeComponent: React.FC = () => {
   const loagindBgTimer = useCallback(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 800);
+    }, 900);
     return () => clearTimeout(timer);
   }, []);
 
