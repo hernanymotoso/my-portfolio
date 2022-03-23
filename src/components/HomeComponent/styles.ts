@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  background-image: url(${HomeBG});
+  background-image: url('https://i.imgur.com/fuBUZzG.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
