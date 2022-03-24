@@ -67,8 +67,9 @@ export const ProfilePic = styled.div`
   height: 150px;
   border-radius: 50%;
   border: 2px solid #fff;
-  background-image: url(${ProfileLogo});
+  background-image: url('https://media-exp1.licdn.com/dms/image/C4E03AQGWeb7xfJ1_vg/profile-displayphoto-shrink_200_200/0/1642632546736?e=1653523200&v=beta&t=xRYhKIJf5tgYCdE_YcpQPDfiMz3Q-tSjPjH3-lYJz0s');
   background-repeat: no-repeat;
+  background-size: 115%;
   background-position: 50% 30%;
   /* background-size: 00%; */
 `;
