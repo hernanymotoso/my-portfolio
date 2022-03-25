@@ -2,7 +2,7 @@ import styled, { keyframes } from 'styled-components';
 
 // import HomeBG from 'https://lh4.googleusercontent.com/WGFrP4_87JMY6KkqFF08ziAvvqC-W9ltC6oljwjJTO8xuswCaHPHxI1BZnF8UEcpflyT4YlXoKwYO-8L0NgF=w729-h637-rw';
 import HomeBG from '../../assets/images/HomeBG.png';
-import ProfileLogo from '../../assets/images/profileLogo.jpg';
+import ProfileLogo from '../../assets/images/profileLogo.jpeg';
 
 export const Container = styled.div`
   width: 100%;
@@ -67,7 +67,7 @@ export const ProfilePic = styled.div`
   height: 150px;
   border-radius: 50%;
   border: 2px solid #fff;
-  background-image: url('https://media-exp1.licdn.com/dms/image/C4E03AQGWeb7xfJ1_vg/profile-displayphoto-shrink_200_200/0/1642632546736?e=1653523200&v=beta&t=xRYhKIJf5tgYCdE_YcpQPDfiMz3Q-tSjPjH3-lYJz0s');
+  background-image: url(${ProfileLogo});
   background-repeat: no-repeat;
   background-size: 115%;
   background-position: 50% 30%;
